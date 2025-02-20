@@ -27,6 +27,7 @@ It depends very much on how durable you want to be but if we consider these numb
 | inside DC         | 1-2ms                | 500-1000                             |
 | inside one region | 2-5ms                | 200-500                              |
 | cross region      | 30-200ms             | 5-35                                 |
+
 Even with ideal conditions (no failures, no retries), consensus-based confirmation is fundamentally limited by network latency. Even inside a single data center, the best case is 500-1000 ops/sec
 
 If your load is not high - simply use etcd kv store and publish transactions one by one.
