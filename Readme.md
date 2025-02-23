@@ -1,3 +1,6 @@
+Here is the prep materials and some piece of code that I used for SystemDesign lightning talk: 
+https://youtu.be/nxGFM1_3y54?t=2767
+
 # Script for talk
 ## Problem definition
 - you need to do smth exactly once in your system
